@@ -15,6 +15,8 @@
 		E149A85922E74E56008219A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E149A85822E74E56008219A2 /* main.m */; };
 		E149A86322E74E56008219A2 /* ObserverPatternDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E149A86222E74E56008219A2 /* ObserverPatternDemoTests.m */; };
 		E149A86E22E74E56008219A2 /* ObserverPatternDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E149A86D22E74E56008219A2 /* ObserverPatternDemoUITests.m */; };
+		E149A87F22E74EBE008219A2 /* ZANotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E149A87E22E74EBE008219A2 /* ZANotificationCenter.m */; };
+		E149A88222E74ED2008219A2 /* ZASampleObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E149A88122E74ED2008219A2 /* ZASampleObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E149A86922E74E56008219A2 /* ObserverPatternDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObserverPatternDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E149A86D22E74E56008219A2 /* ObserverPatternDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverPatternDemoUITests.m; sourceTree = "<group>"; };
 		E149A86F22E74E56008219A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E149A87D22E74EBE008219A2 /* ZANotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZANotificationCenter.h; sourceTree = "<group>"; };
+		E149A87E22E74EBE008219A2 /* ZANotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZANotificationCenter.m; sourceTree = "<group>"; };
+		E149A88022E74ED2008219A2 /* ZASampleObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZASampleObserver.h; sourceTree = "<group>"; };
+		E149A88122E74ED2008219A2 /* ZASampleObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZASampleObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		E149A84822E74E55008219A2 /* ObserverPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E149A87C22E74E95008219A2 /* Noticenter */,
+				E149A87B22E74E81008219A2 /* Observers */,
 				E149A84922E74E55008219A2 /* AppDelegate.h */,
 				E149A84A22E74E55008219A2 /* AppDelegate.m */,
 				E149A84C22E74E55008219A2 /* ViewController.h */,
@@ -130,6 +138,24 @@
 				E149A86F22E74E56008219A2 /* Info.plist */,
 			);
 			path = ObserverPatternDemoUITests;
+			sourceTree = "<group>";
+		};
+		E149A87B22E74E81008219A2 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				E149A88022E74ED2008219A2 /* ZASampleObserver.h */,
+				E149A88122E74ED2008219A2 /* ZASampleObserver.m */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
+		E149A87C22E74E95008219A2 /* Noticenter */ = {
+			isa = PBXGroup;
+			children = (
+				E149A87D22E74EBE008219A2 /* ZANotificationCenter.h */,
+				E149A87E22E74EBE008219A2 /* ZANotificationCenter.m */,
+			);
+			path = Noticenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E149A87F22E74EBE008219A2 /* ZANotificationCenter.m in Sources */,
 				E149A84E22E74E55008219A2 /* ViewController.m in Sources */,
 				E149A85922E74E56008219A2 /* main.m in Sources */,
 				E149A84B22E74E55008219A2 /* AppDelegate.m in Sources */,
+				E149A88222E74ED2008219A2 /* ZASampleObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
