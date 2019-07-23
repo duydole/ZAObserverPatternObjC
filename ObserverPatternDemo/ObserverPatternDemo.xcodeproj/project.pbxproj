@@ -107,7 +107,7 @@
 		E149A84822E74E55008219A2 /* ObserverPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E149A87C22E74E95008219A2 /* Noticenter */,
+				E149A87C22E74E95008219A2 /* NotificationCenter */,
 				E149A87B22E74E81008219A2 /* Observers */,
 				E149A84922E74E55008219A2 /* AppDelegate.h */,
 				E149A84A22E74E55008219A2 /* AppDelegate.m */,
@@ -149,13 +149,13 @@
 			path = Observers;
 			sourceTree = "<group>";
 		};
-		E149A87C22E74E95008219A2 /* Noticenter */ = {
+		E149A87C22E74E95008219A2 /* NotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
 				E149A87D22E74EBE008219A2 /* ZANotificationCenter.h */,
 				E149A87E22E74EBE008219A2 /* ZANotificationCenter.m */,
 			);
-			path = Noticenter;
+			path = NotificationCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
